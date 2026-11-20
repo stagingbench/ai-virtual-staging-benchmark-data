@@ -1,0 +1,121 @@
+tool_dir,room,orig_w,orig_h,staged_w,staged_h,aligned_architecture_drift,raw_drift,alignment_ok,inliers,framing_pass,visible_overlap_pct,framing_result
+ai-homedesign,01,1280,960,1360,1024,13.3,10.3,True,71,True,100.0,pass
+ai-homedesign,02,1280,960,1360,1024,11.6,10.7,True,195,True,99.95,pass
+ai-homedesign,03,1280,960,1280,960,26.4,27.6,True,55,True,99.55,pass
+ai-homedesign,04,1920,926,1824,1024,10.4,10.4,False,24,,,unknown (alignment failed)
+ai-homedesign,05,1920,1484,1360,1024,19.8,12.9,True,133,True,97.77,pass
+ai-homedesign,06,1920,1528,1360,1024,26.0,17.2,True,64,False,95.83,fail: only 95.8% of the original frame visible; zoom 0.988; rotated 0.95 deg
+ai-homedesign,07,1920,1295,1536,1024,18.9,18.3,True,258,True,99.2,pass
+ai-homedesign,08,1600,1200,1360,1024,7.8,5.8,True,319,True,99.95,pass
+ai-homedesign,09,1920,1382,1536,1024,23.3,23.3,False,,,,unknown (alignment failed)
+ai-homedesign,10,1280,960,1360,1024,21.0,18.4,True,189,True,100.0,pass
+collov,01,1280,960,1200,896,11.0,9.9,True,102,True,99.61,pass
+collov,02,1280,960,1195,896,24.1,26.1,True,27,True,98.91,pass
+collov,03,1280,960,1195,896,21.7,22.4,True,41,True,99.95,pass
+collov,04,1920,926,1488,718,56.5,56.5,False,21,,,unknown (alignment failed)
+collov,05,1920,1484,1180,912,21.4,22.3,True,45,True,99.84,pass
+collov,06,1920,1528,1146,912,26.2,30.7,True,44,True,98.99,pass
+collov,07,1920,1295,1257,848,35.1,35.1,False,22,,,unknown (alignment failed)
+collov,08,1600,1200,1195,896,17.4,18.3,True,25,True,100.0,pass
+collov,09,1920,1382,1216,875,9.2,9.2,False,,,,unknown (alignment failed)
+collov,10,1280,960,1195,896,28.0,28.0,False,20,,,unknown (alignment failed)
+homedesignsai,01,1280,960,1184,864,52.8,54.5,True,28,False,63.28,fail: only 63.3% of the original frame visible; zoom 1.181; 9.4% of the output is outside the original frame
+homedesignsai,02,1280,960,1184,864,27.1,29.0,True,54,True,97.27,pass
+homedesignsai,03,1280,960,1184,864,61.3,61.3,False,,,,unknown (alignment failed)
+homedesignsai,04,1920,926,1472,704,54.5,54.5,False,17,,,unknown (alignment failed)
+homedesignsai,05,1920,1484,1152,896,7.2,10.7,True,162,True,99.45,pass
+homedesignsai,06,1920,1528,1152,896,9.7,33.3,True,57,False,98.96,fail: zoom 0.968; 4.8% of the output is outside the original frame
+homedesignsai,07,1920,1295,1248,832,9.2,10.0,True,293,True,98.99,pass
+homedesignsai,08,1600,1200,1184,864,35.5,49.7,True,41,False,79.61,fail: only 79.6% of the original frame visible; zoom 0.962; rotated -1.75 deg; 24.0% of the output is outside the original frame
+homedesignsai,09,1920,1382,1184,864,7.7,7.7,False,,,,unknown (alignment failed)
+homedesignsai,10,1280,960,1184,864,26.6,41.4,True,103,False,98.48,fail: zoom 0.988
+immostage,01,1280,960,1448,1086,25.4,27.0,True,65,True,99.19,pass
+immostage,02,1280,960,1448,1086,33.6,35.7,True,68,True,99.12,pass
+immostage,03,1280,960,1448,1086,22.9,24.1,True,37,True,99.86,pass
+immostage,04,1920,926,1806,871,50.4,50.4,False,8,,,unknown (alignment failed)
+immostage,05,1920,1484,1426,1103,38.0,38.1,True,138,True,99.78,pass
+immostage,06,1920,1528,1406,1119,34.9,52.7,True,96,False,93.51,fail: only 93.5% of the original frame visible; 5.6% of the output is outside the original frame
+immostage,07,1920,1295,1527,1030,46.3,57.4,True,131,False,95.96,fail: only 96.0% of the original frame visible; 2.9% of the output is outside the original frame
+immostage,08,1600,1200,1448,1086,38.7,51.6,True,37,False,91.54,fail: only 91.5% of the original frame visible; zoom 0.981; 11.8% of the output is outside the original frame
+immostage,09,1920,1382,1478,1064,20.4,20.4,False,,,,unknown (alignment failed)
+immostage,10,1280,960,1448,1086,28.2,29.2,True,45,True,99.82,pass
+pedra,01,1280,960,2048,1536,27.1,37.6,True,54,False,99.88,fail: zoom 0.987; 2.5% of the output is outside the original frame
+pedra,02,1280,960,2048,1536,26.6,27.7,True,74,True,100.0,pass
+pedra,03,1280,960,2048,1536,33.5,34.5,True,37,True,99.87,pass
+pedra,04,1920,926,2048,988,28.8,28.8,False,14,,,unknown (alignment failed)
+pedra,05,1920,1484,2048,1578,22.5,21.0,True,127,True,99.87,pass
+pedra,06,1920,1528,2048,1621,21.3,19.6,True,100,True,99.69,pass
+pedra,07,1920,1295,2048,1386,24.4,27.8,True,122,True,99.78,pass
+pedra,08,1600,1200,2048,1536,23.5,54.1,True,56,False,76.3,fail: only 76.3% of the original frame visible; 24.9% of the output is outside the original frame
+pedra,09,1920,1382,2048,1472,26.9,26.9,False,,,,unknown (alignment failed)
+pedra,10,1280,960,2048,1536,26.6,29.5,True,47,True,99.93,pass
+reimaginehome,01,1280,960,2336,1760,16.2,15.3,True,59,True,99.81,pass
+reimaginehome,02,1280,960,2336,1760,32.9,32.9,False,18,,,unknown (alignment failed)
+reimaginehome,03,1280,960,2336,1760,9.2,10.4,True,111,True,99.64,pass
+reimaginehome,04,1920,926,2912,1408,40.1,40.1,False,10,,,unknown (alignment failed)
+reimaginehome,05,1920,1484,2304,1792,13.7,18.8,True,107,True,99.29,pass
+reimaginehome,06,1920,1528,2304,1824,43.4,43.4,False,12,,,unknown (alignment failed)
+reimaginehome,07,1920,1295,2528,1696,41.0,42.2,True,32,True,99.81,pass
+reimaginehome,08,1600,1200,2336,1760,11.6,11.9,True,242,True,99.9,pass
+reimaginehome,09,1920,1382,2400,1728,13.1,13.1,False,,,,unknown (alignment failed)
+reimaginehome,10,1280,960,2336,1760,22.7,28.7,True,134,True,99.9,pass
+roomagen,01,1280,960,2400,1792,15.3,15.5,True,96,True,99.74,pass
+roomagen,02,1280,960,1200,896,34.6,36.1,True,76,True,99.74,pass
+roomagen,03,1280,960,2400,1792,23.6,24.7,True,80,True,99.67,pass
+roomagen,04,1920,926,3168,1344,61.5,61.5,False,7,,,unknown (alignment failed)
+roomagen,05,1920,1484,2400,1792,36.2,66.8,True,57,False,99.75,fail: zoom 0.875; 20.8% of the output is outside the original frame
+roomagen,06,1920,1528,2304,1856,57.3,57.3,False,5,,,unknown (alignment failed)
+roomagen,07,1920,1295,2528,1696,30.4,32.3,True,107,True,99.71,pass
+roomagen,08,1600,1200,2400,1792,22.0,52.9,True,42,False,68.68,fail: only 68.7% of the original frame visible; zoom 0.989; rotated -1.20 deg; 32.3% of the output is outside the original frame
+roomagen,09,1920,1382,2400,1792,11.4,11.4,False,,,,unknown (alignment failed)
+roomagen,10,1280,960,2400,1792,19.9,22.2,True,135,True,99.74,pass
+sofabrain,01,1280,960,684,512,10.6,9.0,True,128,True,99.93,pass
+sofabrain,02,1280,960,684,512,27.8,28.8,True,119,True,99.93,pass
+sofabrain,03,1280,960,684,512,7.5,7.8,True,154,True,99.82,pass
+sofabrain,04,1920,926,912,441,6.4,5.7,True,70,True,100.0,pass
+sofabrain,05,1920,1484,664,512,7.8,8.6,True,222,True,100.0,pass
+sofabrain,06,1920,1528,642,512,13.7,15.2,True,196,True,99.95,pass
+sofabrain,07,1920,1295,758,512,9.7,10.6,True,316,True,100.0,pass
+sofabrain,08,1600,1200,684,512,8.9,9.1,True,263,True,100.0,pass
+sofabrain,09,1920,1382,714,512,3.1,3.1,False,,,,unknown (alignment failed)
+sofabrain,10,1280,960,684,512,17.0,17.3,True,137,True,99.87,pass
+stylesmarter,01,1280,960,2390,1792,14.6,15.3,True,123,True,100.0,pass
+stylesmarter,02,1280,960,2390,1792,19.0,20.2,True,96,True,100.0,pass
+stylesmarter,03,1280,960,2390,1792,22.5,23.5,True,73,True,100.0,pass
+stylesmarter,04,1920,926,2976,1436,15.5,15.8,True,34,True,99.9,pass
+stylesmarter,05,1920,1484,2360,1824,10.2,11.5,True,151,True,100.0,pass
+stylesmarter,06,1920,1528,2292,1824,19.2,32.6,True,147,False,95.39,fail: only 95.4% of the original frame visible; zoom 1.024
+stylesmarter,07,1920,1295,2514,1696,35.5,36.8,True,184,True,99.83,pass
+stylesmarter,08,1600,1200,2390,1792,37.2,51.5,True,33,False,77.66,fail: only 77.7% of the original frame visible; zoom 0.936; rotated -1.85 deg; 31.7% of the output is outside the original frame
+stylesmarter,09,1920,1382,2432,1750,7.6,7.6,False,,,,unknown (alignment failed)
+stylesmarter,10,1280,960,2390,1792,22.2,27.0,True,112,True,100.0,pass
+tinty,01,1280,960,1248,832,18.1,24.1,True,113,False,89.06,fail: only 89.1% of the original frame visible
+tinty,02,1280,960,2528,1696,23.3,33.0,True,192,False,88.63,fail: only 88.6% of the original frame visible
+tinty,03,1280,960,2528,1696,21.0,40.5,True,173,False,88.58,fail: only 88.6% of the original frame visible
+tinty,04,1920,926,2528,1696,33.3,60.7,True,25,False,71.97,fail: only 72.0% of the original frame visible; zoom 1.392
+tinty,05,1920,1484,2528,1696,14.8,33.5,True,137,False,86.05,fail: only 86.1% of the original frame visible
+tinty,06,1920,1528,2528,1696,22.5,34.9,True,172,False,83.31,fail: only 83.3% of the original frame visible
+tinty,07,1920,1295,2528,1696,35.2,38.3,True,179,True,98.43,pass
+tinty,08,1600,1200,2528,1696,27.4,49.4,True,77,False,88.56,fail: only 88.6% of the original frame visible
+tinty,09,1920,1382,2528,1696,10.2,10.2,False,,,,unknown (alignment failed)
+tinty,10,1280,960,2528,1696,21.2,36.7,True,148,False,88.63,fail: only 88.6% of the original frame visible
+virtualstaging-ai,01,1280,960,1280,960,28.2,40.6,True,62,False,98.92,fail: zoom 0.990; rotated -0.76 deg; 2.9% of the output is outside the original frame
+virtualstaging-ai,02,1280,960,1280,960,30.6,32.5,True,92,True,99.67,pass
+virtualstaging-ai,03,1280,960,1280,960,29.7,30.6,True,48,True,99.58,pass
+virtualstaging-ai,04,1920,926,1920,926,29.0,29.0,False,13,,,unknown (alignment failed)
+virtualstaging-ai,05,1920,1484,1920,1484,15.5,16.4,True,139,True,99.87,pass
+virtualstaging-ai,06,1920,1528,1920,1528,21.1,23.4,True,147,True,99.94,pass
+virtualstaging-ai,07,1920,1295,1920,1295,18.0,29.6,True,240,False,100.0,fail: zoom 0.964; 6.7% of the output is outside the original frame
+virtualstaging-ai,08,1600,1200,1600,1200,12.6,60.0,True,55,False,79.69,fail: only 79.7% of the original frame visible; zoom 0.835; 44.2% of the output is outside the original frame
+virtualstaging-ai,09,1920,1382,1920,1382,14.9,14.9,False,,,,unknown (alignment failed)
+virtualstaging-ai,10,1280,960,1280,960,20.2,23.7,True,80,True,99.82,pass
+virtualstagingflow,01,1280,960,2048,1536,11.4,12.6,True,96,True,99.69,pass
+virtualstagingflow,02,1280,960,2048,1536,31.3,32.3,True,49,True,99.85,pass
+virtualstagingflow,03,1280,960,2048,1536,26.3,27.5,True,42,True,99.69,pass
+virtualstagingflow,04,1920,926,2048,988,15.1,16.4,True,34,True,99.8,pass
+virtualstagingflow,05,1920,1484,2048,1584,34.9,33.2,True,111,True,100.0,pass
+virtualstagingflow,06,1920,1528,2048,1627,16.6,16.0,True,168,True,99.88,pass
+virtualstagingflow,07,1920,1295,2048,1381,23.5,25.1,True,227,True,99.93,pass
+virtualstagingflow,08,1600,1200,2048,1536,9.7,10.2,True,173,True,99.97,pass
+virtualstagingflow,09,1920,1382,2048,1474,5.7,5.7,False,,,,unknown (alignment failed)
+virtualstagingflow,10,1280,960,2048,1536,24.5,25.4,True,87,True,99.85,pass
